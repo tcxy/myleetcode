@@ -1,4 +1,4 @@
-#Two Sum
+# Two Sum
 
 ## Problem description
 
@@ -6,13 +6,13 @@ Given an array of integers, return indices of the two numbers such that they add
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-##思路
+## 思路
 
 不需要考虑无解问题，所以直接考虑怎么获取结果。target的值获取之后，可以直接通过双重循环来遍历整个数组，然后比较结果是否为target。
 同时也不需要考虑有多个解的问题，所以只需要考虑一个结果即可。
 
 
-##方案一
+## 方案一
 
 '''
 
@@ -26,18 +26,18 @@ def twoSum(self, nums, target):
 
 '''
 
-###问题
+### 问题
 
 执行到最后一个sample的时候出现超时了，最后这一个sample确实有点变态，数组中的东西太多，Python的双重循环无法通过可能与python运行效率有关。
 
-###思路
+### 思路
 
 最大的问题应该是双重循环，需要相办法用一个循环解决问题。
 主要目的是在访问到每一个元素的时候不需要访问所有的元素，比如1+3不等于target，这样访问到3的时候就不需要再考虑1了。
 这个思路需要用到两个数组，本质上来说其实还是和之前双重循环差不多，但是备用数组的数据是可以删除的，比如1走完了没有target那就直接从备用数组中删除1。
 复杂度应该是O(nlogn)，但是并没有解决双重循环的问题。
 
-##方案二
+## 方案二
 
 '''
 def twoSum(self, nums, target):
@@ -52,11 +52,11 @@ def twoSum(self, nums, target):
 
 '''
 
-###总结
+### 总结
 
 这次成功通过，基本上时间是优化得差不多了，不过不知道能不能优化到O(nlogn)的程度
 
-##O(n)
+## O(n)
 
 discussion有人给出O(n)的解法
 
