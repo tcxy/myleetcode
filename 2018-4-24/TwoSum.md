@@ -14,7 +14,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 ## 方案一
 
-'''
+```
 
 def twoSum(self, nums, target):
 	for index1, value1 in enumerate(nums):
@@ -24,7 +24,7 @@ def twoSum(self, nums, target):
 	# If no solution
 	return -1
 
-'''
+```
 
 ### 问题
 
@@ -39,7 +39,8 @@ def twoSum(self, nums, target):
 
 ## 方案二
 
-'''
+```
+
 def twoSum(self, nums, target):
 	start_index = 1 # use one number to denote how many elements have been valued
 	for index1, value1 in enumerate(nums):
@@ -50,7 +51,7 @@ def twoSum(self, nums, target):
 	# If we can't find the right answer
 	return -1
 
-'''
+```
 
 ### 总结
 
@@ -60,7 +61,7 @@ def twoSum(self, nums, target):
 
 discussion有人给出O(n)的解法
 
-'''
+```
 
 def twoSum(self, nums, target):
 	if len(nums) <= 1:
@@ -71,7 +72,7 @@ def twoSum(self, nums, target):
 			return [buff_dict[nums[i]], i]
 		else:
 			buff_dict[target - nums[i]] = i
-'''
+```
 
 基本上是反向了一波，每访问一个num的时候考虑的点是target-num。
 利用字典的键值对来存储值和其所需要的值的下标，这样可以直接寻找字典中是否存在要找的值。
