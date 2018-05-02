@@ -25,5 +25,5 @@ class Solution(object):
         while x > 0:
             result = result * 10 + x % 10
             x = x // 10
-        return result * sign
+        return result * sign if result < 2**31 else 0
 ```
