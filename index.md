@@ -13,3 +13,4 @@
 7. [8. String to Integer(atoi)](./Code/2018-5-1/StringToInteger.md)
 8. [11. Container With Most Water](./Code/2018-5-2/ContainerWithMostWater.md)
 9. [13. Roman to Integer](./Code/2018-5-2/RomainToInteger.md)
+10. [14. Longest Common Prefix](./Code/2018-5-2/LongestCommonPre.md)
