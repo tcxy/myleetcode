@@ -30,7 +30,7 @@ class Solution(object):
                 longest = max(longest, index - sub_index)
                 sub_index = accessed_char[value] + 1                
             accessed_char[value] = index
-        if s_length - sub_index > longest and s[s_length - 1] != s[sub_index]:
+        if s_length - sub_index > longest and not s[s_length - 1] == s[sub_index]:
             longest = s_length - sub_index
         return longest
                 
@@ -39,3 +39,29 @@ class Solution(object):
 ## 总结
 
 整体来说这段代码写得非常纠结，一开始我直接返回了substring。然后发现要返回最长的长度，于是我采用了现在的这些变量。但是写起来还是非常麻烦的，因为总会缺少部分判断，比如我一开始的长度判断，如果我不判断最后一个字符的话那就不需要最开始的这个判断。但是不判断最后一个字符是否重复的话会遇到刚好在最后一个字符重复的情况，而且for内部的判断容易写出问题，总的来说思路还没有彻底理顺。参考答案之后发现基本都是这个思路，不过有人直接在for里面更新longest的值了，这样就可以丢到两层判断，但是每次循环都要多做一个比较，两种方案不好说谁好谁坏，但是美观性上来说还是人家好一点。
+
+## 2018-5-3 更新
+
+原代码其实还有冗余的地方，重新更新了一下。主要是一些多余的判断的问题，比如最后的判断中不需要再判断s的最后一个字符和sub_index的字符了。以及前面的length为1也是不需要的判断。
+
+```
+class Solution:
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        s_length = len(s) # length of s
+        sub_index = 0 # The start index of substring
+        accessed_char = {} # The character that we've accessed
+        longest = 0 # Longest length of substring
+        for index, value in enumerate(s):
+            if value in accessed_char and sub_index <= accessed_char[value]:
+                # Duplicate char 
+                longest = max(longest, index - sub_index)
+                sub_index = accessed_char[value] + 1                
+            accessed_char[value] = index
+        if s_length - sub_index > longest:
+            longest = s_length - sub_index
+        return longest
+```
