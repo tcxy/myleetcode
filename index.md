@@ -14,3 +14,5 @@
 8. [11. Container With Most Water](./Code/2018-5-2/ContainerWithMostWater.md)
 9. [13. Roman to Integer](./Code/2018-5-2/RomainToInteger.md)
 10. [14. Longest Common Prefix](./Code/2018-5-2/LongestCommonPre.md)
+11. [15. 3Sum][./Code/2018-5-3/3Sum.md]
+12. [17. Letter Combinations of a Phone Number][./Code/2018-5-3/LetterCombinatioOfPhone.md]
