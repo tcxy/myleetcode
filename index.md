@@ -21,3 +21,4 @@
 15. [21. Merge Two Sorted Lists][./Code/2018-5-5/MergeSortedLists.md]
 16. [22. Generate Parentheses][./Code/2018-5-5/GenereateParentheses.md]
 17. [23. Merge k Sorted Lists][./Code/2018-5-5/MergeKSortedList.md]
+18. [26. Remove Duplicates from Sorted Array][./Code/2018-5-5/RemoveDuplicate.md]
