@@ -24,3 +24,4 @@
 18. [26. Remove Duplicates from Sorted Array][./Code/2018-5-5/RemoveDuplicate.md]
 19. [28. Implement strStr()][./Code/2018-5-6/strStr.md]
 20. [29. Divide Two Integers][./Code/2018-5-6/DivideTwoIntegers.md]
+21. [33. Search in Rotated Sorted Array][./Code/2018-5-8/RotatedSortedArray.md]
