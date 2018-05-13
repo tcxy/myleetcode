@@ -4,7 +4,7 @@
 
 The count-and-say sequence is the sequence of integers with the first five terms as following:
 
-```
+``` python
 1.     1
 2.     11
 3.     21
@@ -18,7 +18,7 @@ The count-and-say sequence is the sequence of integers with the first five terms
 
 Given an integer n, generate the nth term of the count-and-say sequence.
 
-Note: Each term of the sequence of integers will be represented as a string. 
+Note: Each term of the sequence of integers will be represented as a string.
 
 ## 思路
 
@@ -26,7 +26,7 @@ Note: Each term of the sequence of integers will be represented as a string.
 
 ## 代码
 
-```
+``` python
 class Solution:
     def countAndSay(self, n):
         """
