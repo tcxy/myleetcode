@@ -26,3 +26,4 @@
 20. [29. Divide Two Integers][./Code/2018-5-6/DivideTwoIntegers.md]
 21. [33. Search in Rotated Sorted Array][./Code/2018-5-8/RotatedSortedArray.md]
 22. [34. Search for a Range][./Code/2018-5-9/SearchForRange.md]
+23. [36. Valid Sudoku][./Code/2018-5-12/Sudoko.md]
