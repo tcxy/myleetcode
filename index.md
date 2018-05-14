@@ -28,3 +28,4 @@
 22. [34. Search for a Range][./Code/2018-5-9/SearchForRange.md]
 23. [36. Valid Sudoku][./Code/2018-5-12/Sudoko.md]
 24. [38. Count and Say][./Code/2018-5-12/CountAnd.md]
+25. [45. First Missing Positive][./Code/2018-5-13/FirstMissingPositive.md]
