@@ -30,3 +30,4 @@
 24. [38. Count and Say][./Code/2018-5-12/CountAnd.md]
 25. [45. First Missing Positive][./Code/2018-5-13/FirstMissingPositive.md]
 25. [42. Trapping Rain Water][./Code/2018-5-13/TrappingRainWater.md]
+26. [46. Permutations][./Code/2018-5-19/Permutations.md]
