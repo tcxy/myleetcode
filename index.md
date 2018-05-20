@@ -34,3 +34,4 @@
 27. [48. Rotate Image][./Code/2018-5-19/RotateImage.md]
 28. [49. Group Anagrams][./Code/2018-5-19/GroupAnagrams.md]
 29. [50. Pow(x, n)][./Code/2018-5-19/Pow.md]
+30. [53. Maximum Subarray][./Code/2018-5-19/MaximumSub.md]
