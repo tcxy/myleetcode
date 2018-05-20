@@ -31,3 +31,4 @@
 25. [45. First Missing Positive][./Code/2018-5-13/FirstMissingPositive.md]
 25. [42. Trapping Rain Water][./Code/2018-5-13/TrappingRainWater.md]
 26. [46. Permutations][./Code/2018-5-19/Permutations.md]
+27. [48. Rotate Image][./Code/2018-5-19/RotateImage.md]
