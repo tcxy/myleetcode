@@ -28,7 +28,7 @@
 
 ## 2018-5-6
 
-### Container With Most Wat4er
+### Container With Most Water
 
 有两个条件判断错误，主要是没有使用lvalue和rvalue，这样会导致比较的值变了。
 
@@ -71,3 +71,34 @@
 ### Validate Parentheses
 
 判断条件少了对left长度的判断
+
+## 2018-5-20
+
+### Longest Common Prefix
+
+主要问题是最后的一层比较，应该从shortest的每一个字符开始比较。
+
+### 3Sum
+
+思路基本已经不记得了，主要需要在意的就是防止重复。这里有一个点，比如left是i+1开始而不是从0开始，因为从0开始的话前面已经用过的数又会再一次用到。
+
+### Search in Rotate sorted array
+
+思路卡主了，还是需要多联系
+
+### Search for a range
+
+基本OK，但是最后的寻找开头以及结尾稍微有点卡壳。
+
+### Valid Sudoku
+
+取col的时候有点卡
+
+### Count and Say
+
+思路忘了
+
+### First Missing Positive
+
+思路忘了
+
