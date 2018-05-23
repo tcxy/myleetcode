@@ -27,6 +27,6 @@
 
 ## 题目
 
-### [10. Regular Expression Matching][./Code/2018-5-22/RegularExpression.md]
+### [10. Regular Expression Matching](./Code/2018-5-22/RegularExpression.md)
 
 这题非常难看出来方程，在匹配的时候需要换个方向去想。判断s和p是否匹配的时候，其实就两种情况，一种是第一个字符不匹配，直接return False。另一种是第一个字符匹配，然后看s-1和p-1是不是匹配。这样的话其实就有点DP的样子了，然后就是构建方程。因为这道题中的\*可以匹配的非常多，所以方程其实很难构建。个人觉得，类似这种题目只能通过不断练习来积累。
