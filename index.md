@@ -40,3 +40,4 @@
 33. [54. Spiral Matrix](./Code/2018-5-23/SpiralMatrix.md)
 34. [55. Jump Game](./Code/2018-5-23/JumpGame.md)
 35. [400. Nth Digit](./Code/2018-6-6/NthDigit.md)
+36. [56. Merge Intervals](./Code/2018-6-6/MergeIntervals.md)
