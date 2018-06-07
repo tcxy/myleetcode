@@ -34,3 +34,7 @@
 ### [62. Unique Paths](./Code/2018-6-6/UniquePath.md)
 
 这题是非常标准的DP，方程和子结构都很好看出来。
+
+### [70. Climbing Stairs](./Code/2018-6-6/ClimbingStairs.md)
+
+要注意n为1的情况

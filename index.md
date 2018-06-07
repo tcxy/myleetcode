@@ -28,7 +28,7 @@
 22. [34. Search for a Range](./Code/2018-5-9/SearchForRange.md)
 23. [36. Valid Sudoku](./Code/2018-5-12/Sudoko.md)
 24. [38. Count and Say](./Code/2018-5-12/CountAnd.md)
-25. [45. First Missing Positive](./Code/2018-5-13/FirstMissingPositive.md)
+25. [41. First Missing Positive](./Code/2018-5-13/FirstMissingPositive.md)
 25. [42. Trapping Rain Water](./Code/2018-5-13/TrappingRainWater.md)
 26. [46. Permutations](./Code/2018-5-19/Permutations.md)
 27. [48. Rotate Image](./Code/2018-5-19/RotateImage.md)
@@ -44,3 +44,4 @@
 37. [62. Unique Paths](./Code/2018-6-6/UniquePath.md)
 38. [66. Plus One](./Code/2018-6-6/PlusOne.md)
 39. [69. Sqrt(x)](./Code/2018-6-6/Sqrt(x).md)
+40. [70. Climbing Stairs](./Code/2018-6-6/ClimbingStairs.md)
