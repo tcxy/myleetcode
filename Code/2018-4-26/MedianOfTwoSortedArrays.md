@@ -64,7 +64,7 @@ class Solution(object):
             return (self.getKth(nums1, nums2, (len1 + len2) // 2) + self.getKth(nums1, nums2, (len1 + len2) // 2 + 1)) * 0.5
         
     def getKth(self, nums1, nums2, k):
-        len1 = len(nums1); 
+        len1 = len(nums1)
         len2 = len(nums2)
         if len1 > len2: 
             return self.getKth(nums2, nums1, k)
@@ -78,6 +78,21 @@ class Solution(object):
             return self.getKth(nums1[p1:], nums2, p2)
         else:
             return self.getKth(nums1, nums2[p2:], p1)
+```
+
+### 具体思路
+
+实际上，这题要求取得第k个值。为了节省时间，直接去两个数组的中位数，分别为m1和m2。如果m1小于m2，说明数组1中的前一半的数都是不需要的。这个时候直接从m1开始接着找，由于舍弃了数组1中一半的数，这个时候不再是求K，而是求k减去m1中舍弃的那一半的数。
+
+## 方案三
+
+
+这个方案是参照博客[两个有序数组中的中位数和Top K问题](https://blog.csdn.net/hk2291976/article/details/51107778)
+
+这个方法的思路比较有意思，和方案二有点类似。同样是从取两个数组的中位数开始，但是这里采用了另一种方式来实现数组的变更，这一点和找最大回文序列类似。通过把数组的长度设置为2n+1，这样就会有两个下标对应同一个数字，也就是不需要担心奇偶问题。另外，这个方案中，将一个数组的取中位数的操作定义为割，并且不修改数组原本的值。相应的，如何更改取的值就成了问题。这里采用的方案是利用lo和hi，类似二分的形式，然后通过运算来修改lo和hi的值。为了简化操作，lo和hi都是在nums1上进行操作。同时，这里采用割的操作是同时在两个数组上进行并且需要利用割的位置两边的数来进行判断，也就是说，会存在数组1的割的位置的左和右以及数组2割的位置的左和右两种情况。
+
+``` python
+
 ```
 
 ## 总结

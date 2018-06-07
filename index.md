@@ -39,3 +39,4 @@
 32. [44. Wildcard Matching](./Code/2018-5-23/WildcardMatching.md)
 33. [54. Spiral Matrix](./Code/2018-5-23/SpiralMatrix.md)
 34. [55. Jump Game](./Code/2018-5-23/JumpGame.md)
+35. [400. Nth Digit](./Code/2018-6-6/NthDigit.md)

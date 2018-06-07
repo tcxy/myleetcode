@@ -65,3 +65,7 @@ class Solution:
             longest = s_length - sub_index
         return longest
 ```
+
+## 需要注意的点
+
+这题最需要注意的就是最后的一层判断，因为这时候已经执行完了，但是最后的一层子串还没有进行判断。
