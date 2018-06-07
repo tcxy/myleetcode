@@ -42,3 +42,4 @@
 35. [400. Nth Digit](./Code/2018-6-6/NthDigit.md)
 36. [56. Merge Intervals](./Code/2018-6-6/MergeIntervals.md)
 37. [62. Unique Paths](./Code/2018-6-6/UniquePath.md)
+38. [66. Plus One](./Code/2018-6-6/PlusOne.md)
