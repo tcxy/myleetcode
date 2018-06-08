@@ -102,3 +102,17 @@
 
 思路忘了
 
+## 2018-6-7
+
+### Maximum subarray
+
+思路不清晰，另外有个问题，看有个博客说这种解法是DP，需要思考一下为什么是DP。
+
+### Regular Expression
+
+抽象不是特别能理解，需要画个表多研究一下。
+
+### Wildcard Match
+
+和Expression Match类似，但是这题简化了，只需要一个数组就可以了。有空要再研究一下。
+
