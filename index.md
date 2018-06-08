@@ -45,3 +45,4 @@
 38. [66. Plus One](./Code/2018-6-6/PlusOne.md)
 39. [69. Sqrt(x)](./Code/2018-6-6/Sqrt(x).md)
 40. [70. Climbing Stairs](./Code/2018-6-6/ClimbingStairs.md)
+41. [73. Set Matrix Zeroes](./Code/2018-6-7/SetMatrixZeros.md)
