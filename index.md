@@ -46,3 +46,4 @@
 39. [69. Sqrt(x)](./Code/2018-6-6/Sqrt(x).md)
 40. [70. Climbing Stairs](./Code/2018-6-6/ClimbingStairs.md)
 41. [73. Set Matrix Zeroes](./Code/2018-6-7/SetMatrixZeros.md)
+42. [75. Sort Colors](./Code/2018-6-7/SortColors.md)
