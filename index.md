@@ -49,3 +49,4 @@
 42. [75. Sort Colors](./Code/2018-6-7/SortColors.md)
 43. [76. Minimum Window Substring](./Code/2018-6-7/MinimumWindowSubstring.md)
 44. [78. Subsets](./Code/2018-6-8/Subsets.md)
+45. [79. Word Search](./Code/2018-6-8/WordSearch.md)
