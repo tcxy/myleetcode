@@ -50,3 +50,4 @@
 43. [76. Minimum Window Substring](./Code/2018-6-7/MinimumWindowSubstring.md)
 44. [78. Subsets](./Code/2018-6-8/Subsets.md)
 45. [79. Word Search](./Code/2018-6-8/WordSearch.md)
+46. [84. Largest Rectangle in Histogram](./Code/2018-6-8/LargestRectanglehistogram.md)
