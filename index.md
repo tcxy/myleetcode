@@ -53,3 +53,4 @@
 46. [84. Largest Rectangle in Histogram](./Code/2018-6-8/LargestRectanglehistogram.md)
 47. [88. Merge Sorted Array](./Code/2018-6-10/MergeSortedArray.md)
 48. [91. Decode Ways](./Code/2018-6-10/DecodeWays.md)
+49. [94. Binary Tree Inorder Traversal](./Code/2018-6-10/BinaryTreeInorderTraversal.md)
