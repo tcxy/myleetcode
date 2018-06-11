@@ -51,3 +51,4 @@
 44. [78. Subsets](./Code/2018-6-8/Subsets.md)
 45. [79. Word Search](./Code/2018-6-8/WordSearch.md)
 46. [84. Largest Rectangle in Histogram](./Code/2018-6-8/LargestRectanglehistogram.md)
+47. [88. Merge Sorted Array](./Code/2018-6-10/MergeSortedArray.md)
