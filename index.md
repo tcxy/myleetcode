@@ -59,3 +59,4 @@
 52. [102. Binary Tree Level Order Traversal](./Code/2018-6-11/BinaryTreeLevelOrderTraversal.md)
 53. [103. Binary Tree Zigzag Level Order Traversal.md](./Code/2018-6-11/BinaryZigZag.md)
 54. [103. Maximum Depth of Binary Tree](./Code/2018-6-11/MaximumDepth.md)
+55. [105. Construct Binary Tree from Preorder and Inorder Traversal](./Code/2018-6-13/ConstructBinaryTree.md)
