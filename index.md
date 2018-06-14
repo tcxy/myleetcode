@@ -61,3 +61,4 @@
 54. [103. Maximum Depth of Binary Tree](./Code/2018-6-11/MaximumDepth.md)
 55. [105. Construct Binary Tree from Preorder and Inorder Traversal](./Code/2018-6-13/ConstructBinaryTree.md)
 56. [108. Convert Sorted Array to Binary Search Tree](./Code/2018-6-13/ConvertSortedArray.md)
+57. [116. Populating Next Right Pointers in Each Node](./Code/2018-6-13/PopulatingNextRight.md)
