@@ -68,3 +68,6 @@
 61. [124. Binary Tree Maximum Path Sum](./Code/2018-6-15/BinaryTreeMaximumPath.md)
 62. [125. Valid Palindrome](./Code/2018-6-15/ValidPalindrome.md)
 63. [127. Word Ladder](./Code/2018-6-15/WordLadder.md)
+64. [128. Longest Consecutive Sequence](./Code/2018-6-17/LongestCOnsecutive.md)
+65. [130. Surrounded Regions](./Code/2018-6-17/SurroundedRegions
+.md)
