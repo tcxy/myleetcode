@@ -72,3 +72,6 @@
 65. [130. Surrounded Regions](./Code/2018-6-17/SurroundedRegions
 .md)
 66. [131. Palindrome Partitionning](./Code/2018-6-17/PalindromeParitioning.md)
+67. [134. Gas Station](./Code/2018-6-18/GasStation.md)
+68. [136. Single Number](./Code/2018-6-18/SingleNumber.md)
+69. [138. Copy List with Random Pointer](./Code/2018-6-18/CopyWithRandomPonter.md)
